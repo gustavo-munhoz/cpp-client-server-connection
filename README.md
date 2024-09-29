@@ -8,10 +8,7 @@ This project is a simple command-line CRUD (Create, Read, Update, Delete) applic
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Database Schema](#database-schema)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demonstration](#demonstration)
 
 ---
 
