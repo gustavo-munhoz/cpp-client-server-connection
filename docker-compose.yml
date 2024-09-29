@@ -1,0 +1,16 @@
+services:
+  db:
+    image: mysql:latest
+    container_name: bde_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: bde1234
+      MYSQL_DATABASE: BDE
+      MYSQL_USER: client
+      MYSQL_PASSWORD: bde1234
+    ports:
+      - "3307:3306"
+      - "33061:33060"
+    volumes:
+      - ./populate_db.sql:/docker-entrypoint-initdb.d/populate_db.sql
+
