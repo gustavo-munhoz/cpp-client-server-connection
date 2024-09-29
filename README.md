@@ -89,3 +89,7 @@ After building the project, run the executable:
 ```bash
 ./crud_app
 ```
+
+## Demonstration
+
+A video demonstration of the program in action can be found [here](https://youtu.be/SLcbDncWM_Q).
